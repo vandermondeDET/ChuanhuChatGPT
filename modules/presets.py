@@ -60,7 +60,7 @@ ONLINE_MODELS = [
     "GPT4",
     "GPT4 32K",
     "Claude 3 Haiku",
-    "Claude 3 Sonnet",
+    "Claude 3.5 Sonnet",
     "Claude 3 Opus",
     "川虎助理",
     "川虎助理 Pro",
@@ -84,6 +84,7 @@ ONLINE_MODELS = [
     "minimax-abab5-chat",
     "midjourney",
     "讯飞星火大模型V3.5",
+    "讯飞星火大模型V3.1",
     "讯飞星火大模型V2.0",
     "讯飞星火大模型V1.5",
     "ERNIE-Bot-turbo",
@@ -249,8 +250,8 @@ MODEL_METADATA = {
             "slogan": i18n("claude_default_slogan"),
         }
     },
-    "Claude 3 Sonnet": {
-        "model_name": "claude-3-sonnet-20240229",
+    "Claude 3.5 Sonnet": {
+        "model_name": "claude-3-5-sonnet-20240620",
         "description": "claude3_sonnet_description",
         "token_limit": 200000,
         "max_generation": 4096,
@@ -370,6 +371,7 @@ MODEL_METADATA = {
     "minimax-abab5-chat": {"model_name": "minimax-abab5-chat"},
     "midjourney": {"model_name": "midjourney"},
     "讯飞星火大模型V3.5": {"model_name": "讯飞星火大模型V3.5"},
+    "讯飞星火大模型V3.1": {"model_name": "讯飞星火大模型V3.1"},
     "讯飞星火大模型V2.0": {"model_name": "讯飞星火大模型V2.0"},
     "讯飞星火大模型V1.5": {"model_name": "讯飞星火大模型V1.5"},
 }
